@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patcher", "Patcher\Patcher.csproj", "{2C03E31A-8413-4A68-A67A-C235E58A95D8}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Patcher for Unix", "Patcher-Unix\Patcher for Unix.pyproj", "{D5029C88-B181-4B61-B2D4-B7CE7EFC62E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,13 @@ Global
 		{2C03E31A-8413-4A68-A67A-C235E58A95D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C03E31A-8413-4A68-A67A-C235E58A95D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C03E31A-8413-4A68-A67A-C235E58A95D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5029C88-B181-4B61-B2D4-B7CE7EFC62E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5029C88-B181-4B61-B2D4-B7CE7EFC62E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C96B6C8-7E91-4104-870C-3252E5DBA89E}
 	EndGlobalSection
 EndGlobal
