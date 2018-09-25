@@ -1,5 +1,6 @@
 
 import click
+import mmap
 
 @click.command()
 @click.option('-g', '--game', default=2, type=int, help='Borderlands version. "--game 1" for Borderlands 1, "--game 2" for Borderlands 2, "--game 3" for Borderlands TPS')
